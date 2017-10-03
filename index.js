@@ -29,4 +29,5 @@ function currentLine(line)
     if(i+1 <line.length)
     str +=","
   }
+  return str
 }
