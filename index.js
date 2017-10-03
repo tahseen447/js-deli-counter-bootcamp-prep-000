@@ -13,5 +13,4 @@ function nowServing(array)
   }
     var name = array.pop()
     return "Currently serving " + name + "."
-  }
 }
