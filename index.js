@@ -12,6 +12,6 @@ function nowServing(array)
     return "There is nobody waiting to be served!"
   }
     var name = array[0]
-    array.slice[1];
+    array =array.slice[1];
     return "Currently serving " + name + "."
 }
