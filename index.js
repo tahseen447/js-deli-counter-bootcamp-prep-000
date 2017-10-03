@@ -11,6 +11,6 @@ function nowServing(array)
   {
     return "There is nobody waiting to be served!"
   }
-    var name = array.pop()
+    var name = array[0]
     return "Currently serving " + name + "."
 }
