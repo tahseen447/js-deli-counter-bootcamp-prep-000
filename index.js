@@ -27,7 +27,7 @@ function currentLine(line)
   {
     str = str + (i+1) + ". "+ line[i]
     if(i+1 <line.length)
-    str = str + ","
+    str = str + ", "
   }
   return str
 }
