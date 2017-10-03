@@ -31,3 +31,4 @@ function currentLine(line)
   }
   return str
 }
+}
