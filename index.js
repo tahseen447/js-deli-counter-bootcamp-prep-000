@@ -8,7 +8,9 @@ function takeANumber(katzDeliLine, newPersonsName)
 function nowServing(array)
 {
   if(array >0)
-  array.pop()
+{
+    array.pop()
+  }
   else {
     return "There is nobody waiting to be served!"
   }
