@@ -14,3 +14,5 @@ function nowServing(array)
     var name = array.shift()
     return "Currently serving " + name + "."
 }
+
+function currentLine(line)
