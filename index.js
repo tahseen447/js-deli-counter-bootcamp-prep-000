@@ -9,8 +9,8 @@ function nowServing(array)
 {
   if(array >0)
 {
-    var name = array.pop()
     return "Currently serving " + name + "."
+        var name = array.pop()
   }
   else {
     return "There is nobody waiting to be served!"
