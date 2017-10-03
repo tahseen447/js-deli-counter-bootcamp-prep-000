@@ -21,4 +21,12 @@ function currentLine(line)
   {
     return "The line is currently empty"
   }
+  else {
+    var str="The line is currently: "
+  for(var i = 0; i<line.length; i++)
+  {
+    str+= (i+1) + ". "+ line[i] + " "
+    if(i+1 <line.length)
+    str +=","
+  }
 }
